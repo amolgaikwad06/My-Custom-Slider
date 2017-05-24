@@ -14,6 +14,7 @@
 		3CDDEF131ED600C60026F080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDDEF111ED600C60026F080 /* LaunchScreen.storyboard */; };
 		3CDDEF1E1ED600C60026F080 /* My_Custom_SliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDDEF1D1ED600C60026F080 /* My_Custom_SliderTests.swift */; };
 		3CDDEF291ED600C60026F080 /* My_Custom_SliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDDEF281ED600C60026F080 /* My_Custom_SliderUITests.swift */; };
+		3CDDEF371ED6010B0026F080 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDDEF361ED6010B0026F080 /* CustomSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3CDDEF241ED600C60026F080 /* My Custom SliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Custom SliderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDDEF281ED600C60026F080 /* My_Custom_SliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Custom_SliderUITests.swift; sourceTree = "<group>"; };
 		3CDDEF2A1ED600C60026F080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDDEF361ED6010B0026F080 /* CustomSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3CDDEF0F1ED600C60026F080 /* Assets.xcassets */,
 				3CDDEF111ED600C60026F080 /* LaunchScreen.storyboard */,
 				3CDDEF141ED600C60026F080 /* Info.plist */,
+				3CDDEF361ED6010B0026F080 /* CustomSlider.swift */,
 			);
 			path = "My Custom Slider";
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					3CDDEF041ED600C60026F080 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W8R3526GV4;
 						ProvisioningStyle = Automatic;
 					};
 					3CDDEF181ED600C60026F080 = {
@@ -260,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CDDEF0B1ED600C60026F080 /* ViewController.swift in Sources */,
+				3CDDEF371ED6010B0026F080 /* CustomSlider.swift in Sources */,
 				3CDDEF091ED600C60026F080 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,7 +419,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = W8R3526GV4;
 				INFOPLIST_FILE = "My Custom Slider/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ascensia.My-Custom-Slider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +434,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = W8R3526GV4;
 				INFOPLIST_FILE = "My Custom Slider/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ascensia.My-Custom-Slider";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -9,17 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var customSlider: CustomSlider!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        customSlider.minimumValue = 0
+        customSlider.maximumValue = 10000
+        customSlider.value = 5000
+        customSlider.incrementValue = 500
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
